@@ -10,7 +10,7 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSArray *numberList = @[@3, @7, @6, @8];
+        NSArray *numberList = @[@33, @7, @6, @8];
         NSNumber *largestNumber = [numberList valueForKeyPath: @"@max.intValue"];
         
         NSLog(@"%@ is the largest number.", largestNumber);
